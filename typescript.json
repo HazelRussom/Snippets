@@ -13,6 +13,19 @@
 			"  });",
 			"});",
 		],
-		"description": "Add describe block"
+		"description": "Add a describe block"
+	},
+	"Test Block": {
+		"prefix": "it",
+		"body": [
+			"it('${1:Do a thing}', () => {",
+			"  //Arrange",
+			"",
+			"  //Act",
+			"",
+			"  $0//Assert",
+			"});",
+		],
+		"description": "Add a test block"
 	}
 }
