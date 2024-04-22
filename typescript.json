@@ -3,7 +3,7 @@
 		"prefix": "descr",
 		"body": [
 			"import { render, screen } from \"@testing-library/react\";",
-			"import { ${1:Component} } from \"./${1:Component}\";",
+			"import ${1:Component} from \"./${1:Component}\";",
 			"",
 			"describe('${1:Component} should', () => {",
 			"  it('${2:Do a thing}', () => {",
