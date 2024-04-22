@@ -1,0 +1,31 @@
+{
+	"Create class": {
+		"prefix": "ccl",
+		"body": [
+			"class $1 {",
+			"",
+			"}"
+		],
+		"description": "Create a class"
+	},
+	"Create function": {
+		"prefix": "ccf",
+		"body": [
+			"function $1 ($2): $3 {",
+			"",
+			"}"
+		],
+		"description": "Create a function"
+	},
+	"Create class with PHP tag": {
+		"prefix": "ccc",
+		"body": [
+			"<?php",
+			"",
+			"class $1 {",
+			"",
+			"}"
+		],
+		"description": "Create a class with a php tag"
+	}
+}
