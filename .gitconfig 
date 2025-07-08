@@ -1,0 +1,8 @@
+Run `git config --global -e` to get the config file up, then paste in these.
+
+[alias]
+  a = add
+  c = commit
+  p = push
+  s = status
+  ac = !git add . && git commit -m
